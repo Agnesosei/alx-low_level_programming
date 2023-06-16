@@ -2,6 +2,15 @@
 #include "main.h"
 #include <string.h>
 
+/**
+ * string_nconcat - concatenates two strings
+ * @s1: String 1
+ * @s2: String 2
+ * @n: Number of bytes to copy
+ *
+ * Return: Null if error or char pointer
+ */
+
 char* string_nconcat(char* s1, char* s2, unsigned int n)
 {
 	unsigned int s1_length = 0;
